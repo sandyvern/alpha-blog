@@ -1,56 +1,62 @@
 $navbar-default-bg: #064c26;
-$well-bg: #064c26;
+// $well-bg: #064c26;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
-  
-  
-  .img-responsive {
-    border: 2px solid;
-    border-color: #008000;
-  }
-  
-  #logo {
-    float: left;
-    font-size: 1.7em;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    font-weight: bold;
-  }
-  
-  #logo:hover {
-    color: #fff;
-    text-decoration: none;
-  }
 
- .center {
-   text-align: center;
- }
- 
- .jumbotron {
-   background-image: asset-url('CodingSnippet.jpg');
-   background-size: cover;
-   height: 550px;
- }
- 
- .jumbotron h1 {
-    color: #fff;
-    margin-bottom: 30px;
-    letter-spacing: -1px;
-    font-weight: bold;
- }
- 
- .action-box {
-    opacity: 0.9;
- }
- 
- .footer {
-   margin: 45px;
-   padding: 5px;
-   border-top: 1px solid #eaeaea;
-   color: #777;
- }
+
+.img-responsive {
+  border: 2px solid;
+  border-color: #008000;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.center {
+text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('CodingSnippet.jpg');
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.action-box {
+  background-color: #064c26;
+  border-color: #032613;
+  opacity: 0.9;
+}
+
+.btn-block {
+  border-color: #032613;
+}
+
+.footer {
+  margin: 45px;
+  padding: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
 
 .footer a:hover {
   color: #222;
