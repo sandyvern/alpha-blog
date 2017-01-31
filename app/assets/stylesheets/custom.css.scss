@@ -81,7 +81,7 @@ text-align: center;
   margin-left: 15px;
 }
 
-// ******** SHOW ********* //
+// ******** ARTICLE SHOW ********* //
 
 .article-actions {
   border-top: 1px solid #eaeaea;
@@ -90,4 +90,17 @@ text-align: center;
 
 .description {
   margin-top: 0;
+}
+
+// ******** ARTICLE SHOW ********* //
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
