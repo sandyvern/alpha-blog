@@ -4,11 +4,7 @@ $navbar-default-bg: #064c26;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
-.img-responsive {
-  border: 2px solid;
-  border-color: #008000;
-}
+// ******** NAVBAR BRAND ********* //
 
 #logo {
   float: left;
@@ -22,6 +18,13 @@ $navbar-default-bg: #064c26;
 #logo:hover {
   color: #fff;
   text-decoration: none;
+}
+
+// ******** JUMBOTRON ********* //
+
+.img-responsive {
+  border: 2px solid;
+  border-color: #008000;
 }
 
 .center {
@@ -51,6 +54,8 @@ text-align: center;
   border-color: #032613;
 }
 
+// ******** FOOTER ********* //
+
 .footer {
   margin: 45px;
   padding: 5px;
@@ -74,4 +79,15 @@ text-align: center;
 .footer ul li {
   float: left;
   margin-left: 15px;
+}
+
+// ******** SHOW ********* //
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
 }
