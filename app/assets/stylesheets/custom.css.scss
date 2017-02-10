@@ -20,6 +20,19 @@ $navbar-default-bg: #064c26;
   text-decoration: none;
 }
 
+// ******** BADGE ********* //
+
+.badge {
+  background-color: #d0fbe3;   // #CEF6F5
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
+
 // ******** JUMBOTRON ********* //
 
 .img-responsive {
