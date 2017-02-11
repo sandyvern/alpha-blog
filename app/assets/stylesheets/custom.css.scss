@@ -3,16 +3,19 @@ $navbar-default-bg: #064c26;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,900,900i');
+
 
 // ******** NAVBAR BRAND ********* //
 
 #logo {
+  font-family: 'Merriweather', serif;
   float: left;
-  font-size: 1.7em;
-  color: #fff;
+  font-size: 1.9em;
+  color: #00bc8c;
   text-transform: uppercase;
   letter-spacing: -1px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #logo:hover {
@@ -33,44 +36,47 @@ $navbar-default-bg: #064c26;
   width: auto !important;
 }
 
-// ******** JUMBOTRON ********* //
+// ******** BODY ********* //
+html,body{
+    height: 100%
+}
 
-.img-responsive {
-  border: 2px solid;
-  border-color: #008000;
+body {
+  height: 100%;
+  background-image: asset-url('night-cityline.jpg');
+  background-size: cover;
+}
+
+.welcome-heading {
+  font-weight: 500;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.welcome-msg {
+    // margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+h1 span,
+h3 span {
+  color: #00bc8c;
+}
+
+.join-btn {
+  padding-top: 40px;
 }
 
 .center {
 text-align: center;
 }
 
-.jumbotron {
-  background-image: asset-url('CodingSnippet.jpg');
-  background-size: cover;
-  height: 550px;
-}
-
-.jumbotron h1 {
-  color: #fff;
-  margin-bottom: 30px;
-  letter-spacing: -1px;
-  font-weight: bold;
-}
-
-.action-box {
-  background-color: #064c26;
-  border-color: #032613;
-  opacity: 0.9;
-}
-
-.btn-block {
-  border-color: #032613;
-}
-
 // ******** FOOTER ********* //
 
 .footer {
-  margin: 45px;
+  margin: 70px;
+  margin-bottom: -40px;
   padding: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
